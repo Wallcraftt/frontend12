@@ -10,10 +10,14 @@ a{
 ul{
     list-style-type: none;
 }
+.modal{
+    opacity: 0.5;
+}
 nav{
     background-color: #222222;
     height: 100%;
     width: 25%;
+    position: relative;
 }
 .navbar{
     display: flex;
@@ -97,6 +101,10 @@ li{
     opacity: 0.5;
 }
 
+
+.modal:hover{
+    opacity: 1;
+}
 .Explore:hover{
     opacity: 1;
 }
@@ -161,3 +169,43 @@ li{
     height: 100px;
     font-family: 'Inter', sans-serif;
 }
+  .web-header{
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px; 
+  }
+  .topnav{
+    position: absolute;
+    display: flex;
+    transform: translate(140%, 30%);
+    padding: 20px;   
+  }
+.web-header{
+    position: absolute;
+}
+.header-img-1{
+    margin: 10px; 
+}
+.header-img-3{
+    margin: 10px;
+}
+button{
+    margin: 10px;
+    background-color:#FF2288;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    opacity: 0.8;
+    font-family:'Inter', sans-serif; 
+}
+.gopro{
+    font-family:'Inter', sans-serif; 
+}
+button:hover{
+    opacity: 1;
+}
+
+
+
