@@ -90,14 +90,13 @@ li{
     padding-left: 10px;
     opacity: 0.5;
 }  
-.div-follow{
-    display: flex;
-}
+
 .following{
     padding: 25px;
     color: #FFFFFF;
     opacity: 0.5;
 }
+
 .Explore:hover{
     opacity: 1;
 }
@@ -109,4 +108,56 @@ li{
 }
 .activities:hover{
     opacity: 1;
+}
+
+.div-follow{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.fow-box,.sajon{
+   display: flex;
+   align-items:center;
+   color:#FFFFFF;
+   padding: 10px;
+   font-family: 'Inter', sans-serif;
+   font-size: 15px;
+}
+.fow-box-2,.tran-mau-tri-tam{
+    display: flex;
+    align-items:center;
+    color:#FFFFFF;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+.fow-box-3,.ghani-pradita{
+    display: flex;
+    align-items:center;
+    color:#FFFFFF;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+.fow-box-4,.david-kovalev{
+    display: flex;
+    align-items:center;
+    color:#FFFFFF;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+.fow-box-5,.ryan-putnam{
+    display: flex;
+    align-items:center;
+    color:#FFFFFF;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+.load-more{
+    color:white;
+    margin-left: 10px;
+    height: 100px;
+    font-family: 'Inter', sans-serif;
 }
