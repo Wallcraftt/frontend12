@@ -114,6 +114,7 @@ li{
 }
 
 
+
 .modal:hover{
     opacity: 1;
 }
@@ -129,19 +130,46 @@ li{
 .activities:hover{
     opacity: 1;
 }
+.sajon:hover{
+    opacity: 1;
+    transform: scale(1.1);  
+}
+.tran-mau-tri-tam:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.ryan-putnam:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}  
+.ghani-pradita:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.david-kovalev:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
 
 .div-follow{
     display: flex;
     flex-direction: column;
     margin-left: 10px;
 }
+.sajon{
+    opacity: 0.5;
+}
 .fow-box,.sajon{
-   display: flex;
-   align-items:center;
-   color:#FFFFFF;
-   padding: 10px;
-   font-family: 'Inter', sans-serif;
-   font-size: 15px;
+    display: flex;
+    align-items:center;
+    color:#FFFFFF;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+.tran-mau-tri-tam{
+    opacity: 0.5;
 }
 .fow-box-2,.tran-mau-tri-tam{
     display: flex;
@@ -151,6 +179,9 @@ li{
     font-family: 'Inter', sans-serif;
     font-size: 15px;
 }
+.ghani-pradita{
+    opacity: 0.5;
+}
 .fow-box-3,.ghani-pradita{
     display: flex;
     align-items:center;
@@ -159,6 +190,9 @@ li{
     font-family: 'Inter', sans-serif;
     font-size: 15px;
 }
+.david-kovalev{
+    opacity: 0.5;
+}
 .fow-box-4,.david-kovalev{
     display: flex;
     align-items:center;
@@ -166,6 +200,9 @@ li{
     padding: 10px;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
+}
+.ryan-putnam{
+    opacity: 0.5;
 }
 .fow-box-5,.ryan-putnam{
     display: flex;
@@ -459,5 +496,49 @@ h3{
 }
 
 
+@media (max-width:1024px){
+    nav{
+        display: none;
+    }
+    input{
+        display: none;
+    }
+    .search{
+        transform: translateY(-100%);
+        margin-right: 50%;
+    }
+    .img-1{
+        display: none;
+    }
+    .div-button{
+        margin-right: 80px;
+    }
+    .info-div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .ghulam-rasool-img{
+        display: none;
+    }
+    .ghulam-rasool{
+        display: none;
+    }
+    .section-h-2{
+        margin-left: 10px;
+    }
+    .follow-3{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+    .h3-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+}
 
 
