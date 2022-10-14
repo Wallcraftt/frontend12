@@ -354,7 +354,7 @@ p{
     font-family:'Inter', sans-serif; 
 }
 .p-1{
- display: block;
+    display: block;
     padding-left: 20px;
 }
 .button3{
@@ -424,78 +424,65 @@ footer{
 h3{
     font-family:'Inter', sans-serif; 
 }
-.footer-p-1{
-    display: flex;
-    justify-content:space-around;
-    grid-column-start: 1;
-    grid-column-end: 5; 
-    margin-bottom: 10px;
+.footer-nav-1{
+    margin: 30px;
 }
-.footer-p-2{
+.footer-nav{
     display: flex;
-    justify-content: space-around;
-    grid-column-start: 1;
-    grid-column-end: 5; 
-    margin-bottom: 10px;
+    flex-direction: row;
 }
-.footer-p-3{
-    display: flex;
-    justify-content: space-around;
-    grid-column-start: 1;
-    grid-column-end: 5; 
-    margin-bottom: 10px;
+.for-designers{
+    margin-bottom: 40px;
 }
-.footer-p-4{
-    display: flex;
-    justify-content: space-around;
-    grid-column-start: 1;
-    grid-column-end: 5; 
-    margin-bottom: 10px;
+.footer-nav-2{
+    margin: 30px;
+    grid-column: 3;
 }
-.footer-p-5{
-    display: flex;
-    justify-content: space-around;
-    grid-column-start: 1;
-    grid-column-end: 5; 
-    margin-bottom: 10px;
+a{
+    font-family:'Inter', sans-serif;    
 }
-.footer-p-6{
-    display: flex;
-    justify-content: space-around;
-    grid-column-start: 1;
-    grid-column-end: 5; 
-    margin-bottom: 10px;
+.hire-designers{
+    margin-bottom: 40px;   
 }
-.footer-p-6{
-    display: flex;
-    justify-content: space-around;
-    grid-column-start: 1;
-    grid-column-end: 5; 
-    margin-bottom: 10px;
+.footer-nav-3{
+    margin: 40px;
 }
-.footer-p-7{
-    display: flex;
-    justify-content: space-around;
-    grid-column-start: 1;
-    grid-column-end: 5; 
-    margin-bottom: 10px;
+.company{
+    margin-bottom: 40px
 }
-.footer-p-8{
-    display: flex;
-    justify-content: space-around;
-    grid-column-start: 1;
-    grid-column-end: 5; 
-    margin-bottom: 10px;
+.footer-nav-4{
+    margin: 40px;
 }
-.footer-p-9{
-    display: flex;
-    justify-content: space-around;
-    grid-column-start: 1;
-    grid-column-end: 5; 
-    margin-bottom: 10px;
+.directories{
+    margin-bottom: 40px 
 }
-
-
+.soc{
+    transform: translate(-80%,100%);
+}
+.facebook{
+    opacity: 0.5;
+}
+.instagram{
+    opacity: 0.5;
+}
+.twitter{
+    opacity: 0.5;   
+}
+.twitter:hover{
+    opacity: 1;
+    color: #00a2ff;
+    transform: scale(1.5);
+}
+.instagram:hover{
+    opacity: 1;
+    color: rgb(255, 9, 132);
+    transform: scale(1.5);
+}
+.facebook:hover{
+    opacity: 1;
+    color: blue;
+    transform: scale(1.5);
+}
 @media (max-width:1024px){
     nav{
         display: none;
@@ -538,6 +525,16 @@ h3{
         flex-direction: column;
         justify-content: space-evenly;
     }
+    .footer-nav-2{
+        display: none;
+    }
+    .footer-nav-3{
+        display: none;
+    }
+    .footer-nav-4{
+        display: none;
+    }
+
     
 }
 
