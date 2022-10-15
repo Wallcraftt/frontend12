@@ -114,7 +114,6 @@ li{
 }
 
 
-
 .modal:hover{
     opacity: 1;
 }
@@ -230,7 +229,8 @@ li{
     display: flex;
     transform: translate(140%, 30%);
     padding: 20px;   
-  }.web-header{
+}
+.web-header{
     position: absolute;
 }
 .header-img-1{
@@ -254,7 +254,7 @@ li{
 button:hover{
     opacity: 1;
 }
-.image-section{
+.mob-section{
     grid-column: 2;
 }
 section,a{
@@ -262,76 +262,78 @@ section,a{
 }
 .info-div{
     margin:80px;
-    border-radius: 5px;
     font-family:'Inter', sans-serif; 
     margin-top: 130px;
-}
-.all{
-    background-color: grey;
-    padding: 10px;
-    border-radius: 5px;
-    margin-right: 20px;
-}
-.Web-design{
-    margin-right: 20px;
-}
-.d-div{
-    margin-right: 20px;
-}
-.App-design{
-    margin-right: 20px;
-}
-.Animation{
-    margin-right: 20px;
-}
-.Illustration{
-    margin-right: 20px;
-}
-.img-1{
-    width: 230px;
-}
-.img-2{
-    width: 230px;
-}
-.img-3{
-    width: 230px;
-}
-.img-4{
-    width: 230px;
-}
-p{
-    font-family:'Inter', sans-serif;  
-    display: inline;
-    margin-right: 5px;
-}
-.div-button{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(78, 72, 75, 0.08);
+    padding-bottom: 10px;
+    font-size: 20px;
 }
-.button2{
-    background-color: rgb(192, 187, 187);
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-}
-.section-2{
+.info-div-2{
+    margin:80px;
+    font-family:'Inter', sans-serif; 
+    margin-top: 50px;
     display: flex;
-    background-color: #FAFAFA;
-    grid-column: -2;
-    width: 100%;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(78, 72, 75, 0.08);
+    padding-bottom: 10px;
+    font-size: 15px;
+    height: auto;
+}
+.price{
+    padding-right: 70px;
+}
+.quantity{
+    padding-right: 50px;
+}
+.info-div-3{
+    margin:80px;
+    font-family:'Inter', sans-serif; 
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(78, 72, 75, 0.08);
+    padding-bottom: 10px;
+    font-size: 15px;   
+}
+.info-div-4{
+    margin:80px;
+    font-family:'Inter', sans-serif; 
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(78, 72, 75, 0.08);
+    padding-bottom: 10px;
+    font-size: 15px;   
+}
+.info-div-5{
+    margin:80px;
+    font-family:'Inter', sans-serif; 
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(78, 72, 75, 0.08);
+    padding-bottom: 10px;
+    font-size: 15px;  
+}
+.info-div-6{
+    margin:80px;
+    font-family:'Inter', sans-serif; 
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(78, 72, 75, 0.08);
+    padding-bottom: 10px;
+    font-size: 15px;  
+}
+.info-div-7{
+    margin:80px;
+    font-family:'Inter', sans-serif; 
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(78, 72, 75, 0.08);
+    padding-bottom: 10px;
+    font-size: 15px;  
+    color: #FF2288; 
+}
 
-    height: 100%;
-    display: grid;
-    grid-template-columns: 25% 25% 15% 15% 15%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    grid-template-areas: 
-    "header header "
-    "section section"
-    "section section "
-    "footer footer " 
-  ;
-  display: inline-block;
-}
 .section-h-2{
     font-size: 30px;
     font-family:'Inter', sans-serif; 
@@ -510,19 +512,13 @@ a{
     .ghulam-rasool{
         display: none;
     }
-    .section-h-2{
-        margin-left: 10px;
-    }
-    .follow-3{
-        display: none;
+    .info-div-2,.info-div-3,.info-div-4,.info-div-5,.info-div-6,.info-div-7{
+        border: none;
+        flex-direction: column;
+        transform: translate(-40%,-250%);
     }
     p{
         display: none;
-    }
-    .h3-box{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
     }
     .footer-nav-2{
         display: none;
@@ -533,8 +529,8 @@ a{
     .footer-nav-4{
         display: none;
     }
-
-    
+    .container{
+        transform: translate(-20%,-120%);
+    }
 }
-
 
